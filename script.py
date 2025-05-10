@@ -4,11 +4,15 @@ app = Flask(__name__)
 
 # Dummy cargo delay status
 CARGO_DELAY_STATUS = {
-    "b2e0b559-4fe9-44b9-bd39-5946e4bc810e": False,
-    "1f9ea703-5b74-4e86-a0a2-34a6cf4fde77": True,
-    "d9b898db-9617-484c-a3a4-057288df9405": False,
-    "c0cb00d5-1ca8-4207-ad8f-637f81aaa338": True,
-    "f14f0afb-bc01-4d95-81a6-8e39398b71e3": False,
+    "d0bea113-d248-457e-80b4-f4a2bf8703a5": True,
+    "fc6c885c-f897-412d-a408-9ba9108a5887": False,
+    "7752d9bb-4baa-4781-aeeb-d754924b81b6": True,
+    "349e514c-7ae5-4d45-992f-d0167b202254": False,
+    "97f91c16-700a-420d-8fec-04fb8dd89927": True,
+    "00168a2b-2593-4ec1-8623-64a27f6c897f": False,
+    "4fde4c75-d97c-41c2-8735-6adfe2c7f11c": True,
+    "3e77150a-2fc3-4fdb-a211-13948aa69abd": False,
+    "72ec6484-33e9-4f20-b42a-703ade53e00d": True,
 }
 
 # Terminal -> Parking Availability
@@ -44,7 +48,7 @@ def generate_status(cargo_id, terminal):
     else:
         return {
             "action": "Pull_Up",
-            "message": "Aircraft delayed and no parking available. Please pull over near rest area!"
+            "message": "Aircraft delayed & no parking available. Pull over near rest area!"
         }
 
 # Admin Interface Template
@@ -137,10 +141,3 @@ def get_cargo_status():
 
 if __name__ == '__main__':
     app.run(debug=True, port=5010)
-
-# fun checkAirportStatus(cargoId: String, terminal: String) {
-#     val url = "https://YOUR_PUBLIC_URL.ngrok-free.app/get-cargo-status?cargo_id=$cargoId&terminal=$terminal"
-
-#     val request = Request.Builder()
-#         .url(url)
-#         .build()
