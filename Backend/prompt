@@ -1,0 +1,8 @@
+To Connect to Your Database
+- psql -U smitpatel -d cargo_db
+
+Delete all the data from particular table
+- DELETE FROM cargo_schedule;
+
+Clear:
+- \! clear
