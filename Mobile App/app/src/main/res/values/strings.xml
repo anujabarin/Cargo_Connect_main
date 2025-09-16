@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Existing App Strings -->
+    <string name="app_name">CargoLive</string>
+    <string name="backend_url">BACKEND_URL</string>
+    <string name="google_maps_key">GOOGLE_MAPS_API_KEY</string>
+    <string name="DALI_ENDPOINT">DALI_ENDPOINT</string>
+    <string name="AIRPORT_ENDPOINT">AIRPORT_ENDPOINT</string>
+
+    <string name="start_navigation">Start Navigation</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="btn_stop_vehicle">Stop Vehicle</string>
+    <string name="btn_resume_vehicle">Resume Vehicle</string>
+    <string name="vehicle_stopped">Vehicle stopped</string>
+    <string name="vehicle_moving">Vehicle moving</string>
+
+    <!-- Authentication Strings -->
+    <string name="login_title">CargoLive</string>
+    <string name="login_subtitle">Login to your account</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_fullname">Full Name</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_google_signin">Sign in with Google</string>
+    <string name="btn_demo_login">Use Demo Account</string>
+    <string name="btn_register_prompt">Don\'t have an account? Register</string>
+    <string name="btn_login_prompt">Already have an account? Login</string>
+
+    <!-- Add your actual Google Web Client ID here when you obtain it -->
+    <string name="google_web_client_id">YOUR_GOOGLE_WEB_CLIENT_ID</string>
+
+    <!-- Error messages -->
+    <string name="error_email_required">Email required</string>
+    <string name="error_password_required">Password required</string>
+    <string name="error_name_required">Name required</string>
+    <string name="error_login_failed">Login failed</string>
+    <string name="error_registration_failed">Registration failed</string>
+    <string name="error_google_signin_failed">Google sign-in failed</string>
+    <string name="error_network">Network error. Check your connection</string>
+    <string name="error_invalid_credentials">Invalid username or password</string>
+    <string name="error_account_not_found">Account not found</string>
+    <string name="error_generic">Something went wrong. Try again later.</string>
+
+    <!-- Success messages -->
+    <string name="success_login">Login successful</string>
+    <string name="success_registration">Registration successful</string>
+
+    <!-- Menu items -->
+    <string name="action_logout">Logout</string>
+</resources>
