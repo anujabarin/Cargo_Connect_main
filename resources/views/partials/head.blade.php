@@ -6,12 +6,12 @@
 <link rel="preconnect" href="https://fonts.bunny.net">
 <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet" />
 {{--
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKvgfgEt2VC5tcA-4Xz2pDjahK2-T0RGY&callback=initMap" async
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKvgbvvnbvfgEt2VC5tcA-4Xz2pDjahK2-T0RGY&callback=initMap" async
     defer></script> --}}
 
 {{--
 <script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKvgfgEt2VC5tcA-4Xz2pDjahK2-T0RGY&loading=async&libraries=maps&v=beta"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzafhgfhgEt2VC5tcA-4Xz2pDjahK2-T0RGY&loading=async&libraries=maps&v=beta"
     defer>
     </script> --}}
 
