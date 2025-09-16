@@ -1,0 +1,14 @@
+package com.example.cargolive.data.api
+
+import retrofit2.Response
+import retrofit2.http.Body
+import retrofit2.http.POST
+
+interface AuthService {
+
+    @POST("auth/login")
+    suspend fun login(@Body loginRequest: Map<String, String>): Response<Map<String, Any>>
+
+    @POST("auth/register")
+    suspend fun register(@Body registerRequest: Map<String, String>): Response<Map<String, Any>>
+}
