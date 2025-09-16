@@ -11,7 +11,7 @@
 
 {{--
 <script
-    src="https://maps.googleapis.com/maps/api/js?key=IzaSyCKvgfgEt2VC5tcA-4Xz2pDjahK2-T0RGY&loading=async&libraries=maps&v=beta"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKvgfgEt2VC5tcA-4Xz2pDjahK2-T0RGY&loading=async&libraries=maps&v=beta"
     defer>
     </script> --}}
 
