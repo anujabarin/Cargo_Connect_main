@@ -1,0 +1,2 @@
+python script.py
+ngrok http 5010
